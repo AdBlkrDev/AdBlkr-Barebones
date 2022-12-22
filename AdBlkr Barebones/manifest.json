@@ -1,0 +1,13 @@
+{
+  "name": "Adblkr Barebones",
+  "version": "1.01",
+  "description": "A Lightweight, Minimalist Ad Blocker based on open source code.",
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
+  "background": {
+    "scripts": ["blocked_domains.js", "background.js"]
+  },
+  "icons": {
+    "128": "icons/icon.png"
+  },
+  "manifest_version": 2
+}
